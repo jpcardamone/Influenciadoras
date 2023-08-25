@@ -1,15 +1,18 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Consulta de Vendas</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Consulta de Vendas</h1>
-    <form id="search-form">
-        <label for="name">Nome do Vendedor:</label>
-        <input type="text" id="name" name="name" required>
-        <button type="submit">Consultar</button>
-    </form>
-    <div id="result"></div>
+    <div class="container">
+        <h1>Consulta de Vendas</h1>
+        <input type="text" id="codigoInput" placeholder="Digite o código">
+        <button id="buscarButton">Buscar</button>
+        <div id="resultado"></div>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
